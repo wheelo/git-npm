@@ -19,9 +19,9 @@ You can use the param '-i' or '--increase' to add the upgrade level. Version lev
 
 You can yet switch to DIY mode any time you want to publish a custom behaviour of publishing. In those cases, you just need explicitly append `-l` param to 'np' command. There are three modes available now for you to opt in:
 
-- `gn -l -push (-m "comment")`： Only push (with your comment)
-- `gn -l -publish`： Only npm publish
-- `gn -l -release (-m "comment")`： Only release (with your comment)
+- `gn -l -p (-m "comment")`： Only push (with your comment)
+- `gn -l -P`： Only npm publish
+- `gn -l -r (-m "comment")`： Only release (with your comment)
 
 
 Still, you can use it within the gulp environment.
