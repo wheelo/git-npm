@@ -11,7 +11,7 @@ However, you can opt into using the custom options of this package by specifying
 
 **Default** 
 
-When you use the command line `gn`, it will use full-blown features brought by the default configures, which include git push, git release and npm publish. In most cases, you just need to type one simple command `git-npm`. Use "git-npm" directly as shorthand for `gn --increment=increment-level --message="Release increment-level`. 
+When you use the command line `gn`, it will use full-blown features brought by the default configures, which include git push, git release and npm publish. In most cases, you just need to type one simple command `git-npm`. Use "gn" directly as shorthand for `gn -i patch -m "Release upgraded-version`. 
 
 You can use the param '-i' or '--increase' to add the upgrade level. Version level can be one of: major, minor, patch, premajor, preminor, prepatch, or prerelease. Default level is 'patch'. Only one version may be specified.
 
