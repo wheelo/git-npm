@@ -1,6 +1,6 @@
 {
   "name": "git-npm-release",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "One batch way to publish both git and npm packages to repositories.",
   "keywords": [
     "git",
