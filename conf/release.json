@@ -4,6 +4,10 @@
     "verbose": false,
     "force": false,
     "pkgFiles": ["package.json"],
+    "config": {
+        "user.name": "wheelo",
+        "user.email": "wheelo@163.com",
+    },
     "increment": "patch",
     "prereleaseId": null,
     "tagName": "%s",
