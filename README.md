@@ -7,7 +7,7 @@ npm install -g git-npm-release
 ## Usage
 
 The usage of this package is easy, just type the word `gn` in your command line (zsh, bash, iTerm and *etc.*). 
-However, you can opt into using the custom options of this package by specifying concrete params. The optional fields can have:
+However, you can opt into using the custom options of this package by specifying concrete params. The optional fields can have the following options.
 
 **Default** 
 
