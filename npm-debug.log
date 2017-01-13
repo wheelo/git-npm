@@ -1,0 +1,126 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/pengxiaolong/.nvm/versions/node/v4.0.0/bin/node',
+1 verbose cli   '/Users/pengxiaolong/.nvm/versions/node/v4.0.0/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@2.14.2
+3 info using node@v4.0.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/pengxiaolong/Project/Tys/git-npm',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/pengxiaolong/.npm/git-npm-release/0.0.15/package.tgz not in flight; packing
+9 verbose tar pack [ '/Users/pengxiaolong/.npm/git-npm-release/0.0.15/package.tgz',
+9 verbose tar pack   '/Users/pengxiaolong/Project/Tys/git-npm' ]
+10 verbose tarball /Users/pengxiaolong/.npm/git-npm-release/0.0.15/package.tgz
+11 verbose folder /Users/pengxiaolong/Project/Tys/git-npm
+12 info prepublish git-npm-release@0.0.15
+13 verbose addLocalTarball adding from inside cache /Users/pengxiaolong/.npm/git-npm-release/0.0.15/package.tgz
+14 silly cache afterAdd git-npm-release@0.0.15
+15 verbose afterAdd /Users/pengxiaolong/.npm/git-npm-release/0.0.15/package/package.json not in flight; writing
+16 verbose afterAdd /Users/pengxiaolong/.npm/git-npm-release/0.0.15/package/package.json written
+17 silly publish { name: 'git-npm-release',
+17 silly publish   version: '0.0.15',
+17 silly publish   description: 'One batch way to publish both git and npm packages to repositories.',
+17 silly publish   keywords:
+17 silly publish    [ 'git',
+17 silly publish      'github',
+17 silly publish      'comandline',
+17 silly publish      'build',
+17 silly publish      'commit',
+17 silly publish      'npm',
+17 silly publish      'publish',
+17 silly publish      'push',
+17 silly publish      'release',
+17 silly publish      'repository',
+17 silly publish      'script',
+17 silly publish      'shell',
+17 silly publish      'tag',
+17 silly publish      'tool',
+17 silly publish      'version' ],
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'git+https://github.com/wheelo/git-npm.git' },
+17 silly publish   bin: { gn: './bin/gn.js' },
+17 silly publish   main: './lib/git-npm.js',
+17 silly publish   author: { name: 'wheelo', email: 'wheelo@163.com' },
+17 silly publish   license: 'MIT',
+17 silly publish   dependencies:
+17 silly publish    { chalk: '1.1.3',
+17 silly publish      github: '7.2.0',
+17 silly publish      glob: '7.1.1',
+17 silly publish      'graceful-fs': '4.1.10',
+17 silly publish      inquirer: '1.2.2',
+17 silly publish      lodash: '4.16.6',
+17 silly publish      minimist: '1.2.0',
+17 silly publish      mkdirp: '0.5.1',
+17 silly publish      'parse-repo': '1.0.1',
+17 silly publish      semver: '5.3.0',
+17 silly publish      shelljs: '0.7.5',
+17 silly publish      when: '3.7.7' },
+17 silly publish   bugs: { url: 'https://github.com/wheelo/git-npm/issues' },
+17 silly publish   homepage: 'https://github.com/wheelo/git-npm#readme',
+17 silly publish   devDependencies: {},
+17 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+17 silly publish   readme: '## git-npm-release\nOne batch way to publish both git and npm packages to related repositories.\n\n## Installation\nnpm install -g git-npm-release\n\n## Usage\n\nThe usage of this package is easy, just type the word `gn` in your command line (zsh, bash, iTerm and *etc.*). \nHowever, you can opt into using the custom options of this package by specifying concrete params. The optional fields can have the following options.\n\n**Default** \n\nWhen you use the command line `gn`, it will use full-blown features brought by the default configures, which include git push, git release and npm publish. In most cases, you just need to type one simple command `git-npm`. Use `gn` directly as shorthand for `gn -i patch -m "Release upgraded-version`. \n\nYou can use the param \'-i\' or \'--increase\' to add the upgrade level. Version level can be one of: major, minor, patch, premajor, preminor, prepatch, or prerelease. Default level is \'patch\'. Only one version may be specified.\n\n**Advanced way** \n\nYou can yet switch to DIY mode any time you want to publish a custom behaviour of publishing. In those cases, you just need explicitly append `-l` param to \'np\' command. There are three modes available now for you to opt in:\n\n- `gn -l -push (-m "comment")`： Only push (with your comment)\n- `gn -l -publish`： Only npm publish\n- `gn -l -release (-m "comment")`： Only release (with your comment)\n\n\nStill, you can use it within the gulp environment.\nJust configure it as one task of gulp, then type in command line: `gulp some-git-npm-task`\n\n',
+17 silly publish   readmeFilename: 'README.md',
+17 silly publish   gitHead: 'f48c3f1c7e02d55ffaded1fab720562fdee68979',
+17 silly publish   _id: 'git-npm-release@0.0.15',
+17 silly publish   _shasum: 'acfbba398580eafa82c2b164bd311a78588fe378',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name git-npm-release
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/git-npm-release
+23 verbose publish registryBase https://registry.npmjs.org/
+24 silly publish uploading /Users/pengxiaolong/.npm/git-npm-release/0.0.15/package.tgz
+25 verbose request uri https://registry.npmjs.org/git-npm-release
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 18:23:58
+28 verbose request using bearer token for auth
+29 verbose request id 4b322ff494af423b
+30 http request PUT https://registry.npmjs.org/git-npm-release
+31 http 403 https://registry.npmjs.org/git-npm-release
+32 verbose headers { 'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=300',
+32 verbose headers   'content-length': '96',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Fri, 13 Jan 2017 10:24:00 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1484303039.620853,VS0,VE602',
+32 verbose headers   vary: 'Accept-Encoding' }
+33 verbose request invalidating /Users/pengxiaolong/.npm/registry.npmjs.org/git-npm-release on PUT
+34 error publish Failed PUT 403
+35 verbose stack Error: "You cannot publish over the previously published version 0.0.15." : git-npm-release
+35 verbose stack     at makeError (/Users/pengxiaolong/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:263:12)
+35 verbose stack     at CachingRegistryClient.<anonymous> (/Users/pengxiaolong/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:251:14)
+35 verbose stack     at Request._callback (/Users/pengxiaolong/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:171:14)
+35 verbose stack     at Request.self.callback (/Users/pengxiaolong/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/request/request.js:198:22)
+35 verbose stack     at emitTwo (events.js:87:13)
+35 verbose stack     at Request.emit (events.js:172:7)
+35 verbose stack     at Request.<anonymous> (/Users/pengxiaolong/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/request/request.js:1073:14)
+35 verbose stack     at emitOne (events.js:82:20)
+35 verbose stack     at Request.emit (events.js:169:7)
+35 verbose stack     at IncomingMessage.<anonymous> (/Users/pengxiaolong/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/request/request.js:1019:12)
+36 verbose statusCode 403
+37 verbose pkgid git-npm-release
+38 verbose cwd /Users/pengxiaolong/Project/Tys/git-npm
+39 error Darwin 15.4.0
+40 error argv "/Users/pengxiaolong/.nvm/versions/node/v4.0.0/bin/node" "/Users/pengxiaolong/.nvm/versions/node/v4.0.0/bin/npm" "publish"
+41 error node v4.0.0
+42 error npm  v2.14.2
+43 error code E403
+44 error "You cannot publish over the previously published version 0.0.15." : git-npm-release
+45 error If you need help, you may report this error at:
+45 error     <https://github.com/npm/npm/issues>
+46 verbose exit [ 1, true ]
