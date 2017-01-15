@@ -1,4 +1,4 @@
-## git-npm-release
+# git-npm
 One batch way to publish both git and npm packages to related repositories.
 
 ## Installation
@@ -7,7 +7,7 @@ npm install -g git-npm-release
 ## Usage
 
 The usage of this package is easy, just type the word `gn` in your command line (zsh, bash, iTerm and *etc.*). 
-However, you can opt into using the custom options of this package by specifying concrete params. The optional fields can have the following options.
+However, you can opt into using the custom options by specifying concrete params. Different options have the differed usage.
 
 **Simple Mode** 
 
