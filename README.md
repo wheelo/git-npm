@@ -6,12 +6,12 @@ npm install -g git-npm-release
 
 ## Usage
 
-The usage of this package is easy, just type the word `gn` in your command line (zsh, bash, iTerm and *etc.*). 
+The usage of this package is easy, just type the word `gn` in your favourate shell(tcsh, bash or zsh, to name a few).  
 However, you can opt into the advanced mode by specifying concrete params, which descirbed as below. Different options have the differed usage, now the availbale modes have:
 
 **Simple Mode** 
 
-When you use the command line `gn`, it will use full-blown features brought by the default configures, which include git push, git release and npm publish. In most cases, you just need to type one simple command `git-npm`. Use `gn` directly as shorthand for `gn -i patch -m "Release <version>"`. 
+When you use the command line `gn`, it will use full-blown features brought by the default configures, which include git push, git release and npm publish. In most cases, you just need to type one simple command `gn`. Use `gn` directly as shorthand for `gn -i patch -m "Release <version>"`. 
 
 You can use the param '-i' or '--increase' to bump the version. The version level can be one of: major, minor, patch, premajor, preminor, prepatch, or prerelease. Default level is 'patch'. Only one version may be specified.
 
