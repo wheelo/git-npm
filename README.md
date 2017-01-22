@@ -6,8 +6,8 @@ npm install -g git-npm-release
 
 ## Usage
 
-The usage of this package is easy, just type the word `gn` in your favourate shell(tcsh, bash or zsh, to name a few).  
-However, you can opt into the advanced mode by specifying concrete params, which descirbed as below. Different options have the differed usage, now the availbale modes have:
+The usage of this package is easy, just type two letters `gn` in your favourate shell(tcsh, bash or zsh, to name a few).  
+However, you can opt into the advanced mode by specifying another `-l` param, which will be described at length below. You have two modes two choose currenly:
 
 **Simple Mode** 
 
@@ -17,7 +17,7 @@ You can use the param '-i' or '--increase' to bump the version. The version leve
 
 **Advanced Mode** 
 
-You can switch to advanced mode any time you want to own a custom behaviour of publishing. In these cases, you just need explicitly append `-l` param to 'np' command. There are three modes available now for you to opt in:
+You can switch to advanced mode any time you want to own a custom behaviour of publishing. In these cases, you just need explicitly append `-l` param to `gn` command. There are three modes available now for you to opt in:
 
 - `gn -l -p (-m "comment")`： Only push (with your comment)
 - `gn -l -P`： Only npm publish
