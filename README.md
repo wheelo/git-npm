@@ -7,7 +7,7 @@ npm install -g git-npm-release
 ## Usage
 
 The usage of this package is easy, just type two letters `gn` in your favourate shell(tcsh, bash or zsh, to name a few).  
-However, you can opt into the advanced mode by specifying another `-l` param, which will be described at length below. You have two modes two choose currenly:
+However, you can opt into the advanced mode by specifying another `-l` param, which will be described at length below. We have two modes for choices currenly:
 
 **Simple Mode** 
 
